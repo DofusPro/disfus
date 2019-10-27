@@ -94,8 +94,4 @@ class disfus extends Client {
     }
 }
 
-<<<<<<< HEAD
 module.exports = disfus;
-=======
-module.exports = disfus;
->>>>>>> 60371f3a763f09ce4532ab081f0697615d9d5d15
