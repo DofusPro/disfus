@@ -32,12 +32,12 @@ class disfus extends Client {
          * 
          * @type {Object}
          */
-        this.config = options.config ? require(`${options.config}`) : {};
+        this.config = options.config ? require(`../../../${options.config}`) : {};
         /**
          *
          * @type {Object}
          */
-        this.perms = options.perms ? require(`${options.perms}`) : {};
+        this.perms = options.perms ? require(`../../../${options.perms}`) : {};
 
         //
         console.log(`Client initialised. You are using node ${process.version}.`);
