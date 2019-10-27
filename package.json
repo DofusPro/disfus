@@ -1,6 +1,6 @@
 {
   "name": "disfus",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Facilitar el uso de discord.js",
   "main": "index.js",
   "scripts": {
