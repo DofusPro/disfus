@@ -1,0 +1,22 @@
+{
+  "name": "disfus",
+  "version": "1.0.0",
+  "description": "Facilitar el uso de discord.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DofusPro/disfus.git"
+  },
+  "author": "Dofus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DofusPro/disfus/issues"
+  },
+  "homepage": "https://github.com/DofusPro/disfus#readme",
+  "dependencies": {
+    "discord.js": "^11.5.1"
+  }
+}

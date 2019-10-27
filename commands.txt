@@ -1,0 +1,35 @@
+
+const Base = require("../base/Command");
+
+
+ class Name extends Base {
+  constructor(client) {
+   
+  
+    super(client, {
+      name: "",
+      description: "",
+      usage: "", 
+      category: "",
+      cooldown: 0,
+      aliases: [],
+
+      permLevel: 0,
+      permission: "READ_MESSAGES"
+    });
+  }
+  
+run(message, args, embed, discord) {
+  
+    
+    const Discord = require("discord.js");
+
+    
+
+    super.respond();
+ 
+}
+}
+
+
+module.exports = Name;
