@@ -5,7 +5,7 @@ const { readdir } = require("fs");
  * 
  * @extends Discord.Client
 */
-class CustomClient extends Client {
+class disfus extends Client {
     /**
      * @param {Object} options 
      * @param {Object} options.clientOptions 
@@ -94,4 +94,4 @@ class CustomClient extends Client {
     }
 }
 
-module.exports = CustomClient;
+module.exports = disfus;
