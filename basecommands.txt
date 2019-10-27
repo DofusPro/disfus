@@ -22,7 +22,6 @@ const Base = require("../base/Command");
 run(message, args, embed, discord) {
   
     
-    const Discord = require("discord.js");
 
     
 
